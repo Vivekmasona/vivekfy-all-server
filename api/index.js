@@ -13,6 +13,7 @@ app.listen(PORT, () => {
   console.log("Server running at http://localhost:", PORT);
 });
 
+
 app.use(express.static("./static"));
 const port = process.env.PORT || 5000;
 
